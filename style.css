@@ -1,0 +1,81 @@
+#container{
+    background-color: cyan;
+}
+
+body{
+    background: #B3C467;
+}
+
+#Iptext{
+    width: 200px;
+    height: 30px;
+    padding: 0px 0px 0px 10px;
+    margin: 0px 0px 15px 10px;
+    position: absolute;
+    left: 40%;
+}
+
+.deletebutton{
+    float: right;
+    margin-right: 50px;
+    margin-top: 4px;
+    background-color:#ff7438;
+}
+
+
+h1{
+    font-family: "Bernard MT Condensed";
+    padding: 10px;
+    text-align: center;
+    color: gold;
+    background-color: rgba(0,0,0,0.1);
+}
+
+/*hr{*/
+    /*height: 3px;*/
+    /*background-color: black;*/
+/*}*/
+
+/*.category{*/
+    /*font-size: 20px;*/
+/*}*/
+
+#active{
+    background-color: #ffed25;
+    color: crimson;
+    margin-left: 30px;
+}
+
+#complete{
+    background-color: darkmagenta;
+    color: blanchedalmond;
+    margin-left: 30px;
+}
+
+#delete{
+    background-color: darkred;
+    color: blanchedalmond;
+    text-decoration: line-through;
+    margin-left: 30px;
+}
+
+li{
+    color: #616161;
+    overflow: hidden;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    margin-right: 2%;
+    color: green;
+}
+
+#AddButton{
+    background-color: beige;
+    color: darkred;
+    margin-left: 60%;
+    border: 1px solid whitesmoke;
+    height:30px;
+    width: 50px;
+}
